@@ -1,6 +1,6 @@
 def my_select(collection)
   i = 0
-  new_collection
+  new_collection = []
   while i < collection.length
     new_val = yield(collection[i])
     if new_val == true
